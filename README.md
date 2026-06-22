@@ -3,7 +3,7 @@
 > 让理财从零开始变简单 | 游戏化学习 + 无风险实践 + AI私人导师
 
 [![GitHub Pages](https://github.com/sine-io/moneypath/actions/workflows/docs.yml/badge.svg)](https://github.com/sine-io/moneypath/actions/workflows/docs.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ## 🎯 项目简介
 
@@ -171,7 +171,7 @@ moneypath/
 
 ## 📄 许可证
 
-本项目采用 [MIT License](LICENSE) 开源协议。
+本项目采用 [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE) 开源协议。
 
 ## 📞 联系我们
 

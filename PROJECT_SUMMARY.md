@@ -89,7 +89,7 @@ moneypath/
 │       └── extra.css           # 自定义样式
 ├── mkdocs.yml                  # MkDocs配置
 ├── README.md                   # 项目说明
-├── LICENSE                     # MIT协议
+├── LICENSE                     # AGPL-3.0协议
 └── .gitignore
 
 总计: 60个文件, 14597行代码

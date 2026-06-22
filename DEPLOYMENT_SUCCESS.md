@@ -58,7 +58,7 @@ GitHub Actions会在你访问Pages设置后自动触发部署。
 │   └── about/                    # 关于项目
 ├── mkdocs.yml                    # MkDocs配置
 ├── README.md                     # 项目说明
-└── LICENSE                       # MIT开源协议
+└── LICENSE                       # AGPL-3.0开源协议
 ```
 
 ---

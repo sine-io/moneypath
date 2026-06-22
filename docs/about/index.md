@@ -152,7 +152,7 @@
 
 ## 开源协议
 
-本项目采用 **MIT License** 开源协议。
+本项目采用 **GNU Affero General Public License v3.0 (AGPL-3.0)** 开源协议。
 
 你可以自由地:
 - ✅ 商业使用
