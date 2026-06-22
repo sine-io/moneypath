@@ -18,7 +18,7 @@
 
 ## 📚 在线文档
 
-**完整文档站点**：[https://sine-io.github.io/moneypath/](https://sine-io.github.io/moneypath/)
+**完整文档站点**：[http://www.sineio.top/moneypath/](http://www.sineio.top/moneypath/)
 
 文档包含：
 - 📖 完整课程大纲（4个阶段，20+关卡）
@@ -31,7 +31,7 @@
 
 ### 在线访问
 
-访问在线文档站点：[https://sine-io.github.io/moneypath/](https://sine-io.github.io/moneypath/)
+访问在线文档站点：[http://www.sineio.top/moneypath/](http://www.sineio.top/moneypath/)
 
 ### 本地运行
 
@@ -125,7 +125,7 @@ moneypath/
 - Week 11：资产配置计算器 + 定投模拟器
 - Week 12：测试 + 部署上线
 
-详见：[MVP开发计划](https://sine-io.github.io/moneypath/operations/mvp-plan/)
+详见：[MVP开发计划](http://www.sineio.top/moneypath/operations/mvp-plan/)
 
 ## 🤝 贡献指南
 
@@ -146,7 +146,7 @@ moneypath/
 - 🎨 优化课程内容和互动设计
 - 💻 提交代码（需遵循项目编码规范）
 
-详见：[贡献指南](https://sine-io.github.io/moneypath/about/contributing/)
+详见：[贡献指南](http://www.sineio.top/moneypath/about/contributing/)
 
 ## 💰 成本估算
 
@@ -163,7 +163,7 @@ moneypath/
 
 **年成本**：¥7,800
 
-详见：[成本预算](https://sine-io.github.io/moneypath/operations/budget/)
+详见：[成本预算](http://www.sineio.top/moneypath/operations/budget/)
 
 ## ⚠️ 免责声明
 
@@ -178,7 +178,7 @@ moneypath/
 - **GitHub Organization**: [sine-io](https://github.com/sine-io)
 - **项目仓库**: [moneypath](https://github.com/sine-io/moneypath)
 - **问题反馈**: [Issues](https://github.com/sine-io/moneypath/issues)
-- **在线文档**: [https://sine-io.github.io/moneypath/](https://sine-io.github.io/moneypath/)
+- **在线文档**: [http://www.sineio.top/moneypath/](http://www.sineio.top/moneypath/)
 
 ---
 
