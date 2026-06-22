@@ -1,0 +1,150 @@
+/* 钱途 MoneyPath 自定义样式 - 温暖色系 */
+
+:root {
+  --md-primary-fg-color: #ff6f00;
+  --md-primary-fg-color--light: #ff8f00;
+  --md-primary-fg-color--dark: #e65100;
+  --md-accent-fg-color: #ff5722;
+  --md-accent-fg-color--transparent: rgba(255, 87, 34, 0.1);
+}
+
+/* 温暖渐变背景 */
+.md-header {
+  background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+}
+
+/* 按钮样式优化 */
+.md-button {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.md-button--primary {
+  background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+  border: none;
+}
+
+.md-button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 111, 0, 0.3);
+}
+
+/* 卡片网格布局 */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.grid.cards > * {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  background: var(--md-default-bg-color);
+}
+
+.grid.cards > *:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 12px rgba(255, 111, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+/* 表格样式优化 */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) thead {
+  background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+  color: white;
+}
+
+.md-typeset table:not([class]) th {
+  color: white !important;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(255, 111, 0, 0.05);
+}
+
+/* 告示框优化 */
+.admonition.success {
+  border-left-color: #4caf50;
+}
+
+.admonition.warning {
+  border-left-color: #ff9800;
+}
+
+.admonition.info {
+  border-left-color: #2196f3;
+}
+
+/* 导航标签优化 */
+.md-tabs {
+  background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+}
+
+/* 代码块优化 */
+.md-typeset code {
+  background-color: rgba(255, 111, 0, 0.08);
+  color: #d84315;
+  border-radius: 4px;
+}
+
+/* 链接颜色 */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* 页脚优化 */
+.md-footer {
+  background: linear-gradient(135deg, #424242 0%, #616161 100%);
+}
+
+/* 搜索框优化 */
+.md-search__input {
+  border-radius: 8px;
+}
+
+.md-search__input:focus {
+  border-color: var(--md-primary-fg-color);
+}
+
+/* 响应式优化 */
+@media screen and (max-width: 76.1875em) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 标题装饰 */
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid rgba(255, 111, 0, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+/* 徽章样式 */
+.md-typeset .badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: 600;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+}

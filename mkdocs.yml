@@ -1,0 +1,139 @@
+site_name: 钱途 MoneyPath
+site_description: 让理财从零开始变简单 - 游戏化学习 + 无风险实践 + AI私人导师
+site_author: Sine.io Team
+site_url: https://sine-io.github.io/moneypath/
+
+repo_name: sine-io/moneypath
+repo_url: https://github.com/sine-io/moneypath
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    # Light mode
+    - scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    # Dark mode
+    - scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+  font:
+    text: Noto Sans SC
+    code: Roboto Mono
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+
+  - 课程大纲:
+    - curriculum/index.md
+    - 完整课程: curriculum/full-curriculum.md
+
+  - 新手指南:
+    - guide/index.md
+    - 新手引导方案: guide/onboarding.md
+    - 内容创作指南: guide/content-guide.md
+
+  - 实践系统:
+    - practice/index.md
+    - 练习反馈复盘: practice/practice-system.md
+    - 成长指标体系: practice/growth-metrics.md
+
+  - 评审报告:
+    - evaluation/index.md
+    - 改进方案: evaluation/improvement-report.md
+    - 第一轮评分: evaluation/round1.md
+    - 第二轮评分: evaluation/round2.md
+
+  - 技术文档:
+    - tech/index.md
+    - 产品需求: tech/prd.md
+    - 技术方案: tech/tech-spec.md
+    - 数据库设计: tech/database-design.md
+    - API接口: tech/api-spec.md
+    - 开发环境: tech/dev-setup.md
+    - 部署指南: tech/deployment.md
+
+  - 运营规划:
+    - operations/index.md
+    - MVP计划: operations/mvp-plan.md
+    - 成本预算: operations/budget.md
+    - 增长策略: operations/growth-strategy.md
+
+  - 设计系统:
+    - design/index.md
+    - UI/UX规范: design/design-system.md
+    - 用户流程: design/user-flow.md
+
+  - 关于:
+    - about/index.md
+    - 项目愿景: about/vision.md
+    - 贡献指南: about/contributing.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sine-io
+      name: Sine.io on GitHub
+
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2026 Sine.io Team | 免责声明：本站仅提供教育内容，不构成投资建议
